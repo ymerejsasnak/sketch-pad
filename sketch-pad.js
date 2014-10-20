@@ -13,22 +13,22 @@ $(document).ready(function() {
 
     var isDown = false;
 
-    $("body").on("mousedown", function() {
+    $(document).on("mousedown", function() {
     	isDown = true;
     });
 
-    $("body").on("mouseup", function() {
+    $(document).on("mouseup", function() {
     	isDown = false;
     });
 
 
-    $("div").on("mousemove", function() {
+    $("#gridcontainer").on("mousemove", "div", function() {
         if (isDown){
         	$(this).addClass("entered");
         }
     });
 
-    $("div").on("mousedown", function() {
+    $("#gridcontainer").on("mousedown", "div", function() {
     	$(this).addClass("entered");
 
     });
