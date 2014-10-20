@@ -2,7 +2,7 @@
 
 
 
-$(document).ready(function(){
+$(document).ready(function() {
     
     for (i = 0; i < 16; i++) {
     	for(j = 0; j < 16; j++){
@@ -10,5 +10,8 @@ $(document).ready(function(){
     	}
     }
 
+    $("div").on("mouseenter", function() {
+        $(this).addClass("entered");
+    });
 
 });

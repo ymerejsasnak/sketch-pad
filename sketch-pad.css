@@ -13,3 +13,7 @@ div {
 	width: 960px;
 	background-color: lightgray;
 }
+
+.entered {
+	background-color: black;
+}
