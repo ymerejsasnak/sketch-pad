@@ -2,16 +2,16 @@
 
 div {
 	float: left;
-	height: 58px;
-	width: 58px;
+	height: 28px;
+	width: 28px;
 	border: 1px solid black;
 }
 
 
 #gridcontainer {
-	height: 960px;
-	width: 960px;
-	background-color: lightgray;
+	height: 480px;
+	width: 480px;
+	background-color: #eeeeee;
 }
 
 .entered {
