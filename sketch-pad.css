@@ -1,0 +1,14 @@
+
+
+div {
+	height: 16px;
+	width: 16px;
+	border: 1px solid black;
+}
+
+
+#gridcontainer {
+	height: 960px;
+	width: 960px;
+	background-color: lightgray;
+}
