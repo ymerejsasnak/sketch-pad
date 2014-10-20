@@ -10,8 +10,31 @@ $(document).ready(function() {
     	}
     }
 
-    $("div").on("mouseenter", function() {
-        $(this).addClass("entered");
+
+    var isDown = false;
+
+    $("body").on("mousedown", function() {
+    	isDown = true;
+    });
+
+    $("body").on("mouseup", function() {
+    	isDown = false;
+    });
+
+
+    $("div").on("mousemove", function() {
+        if (isDown){
+        	$(this).addClass("entered");
+        }
+    });
+
+    $("div").on("mousedown", function() {
+    	$(this).addClass("entered");
+
+    });
+
+    $("button").on("click", function() {
+    	$("div").removeClass("entered");
     });
 
 });

@@ -5,13 +5,26 @@ div {
 	height: 28px;
 	width: 28px;
 	border: 1px solid black;
+	background-color: #eeeeee;
 }
 
+h1 {
+	margin: 0px auto;
+
+}
+
+button {
+    display: block;	
+	margin: 0px auto;
+	height: 40px;
+	width: 100px;
+}
 
 #gridcontainer {
+	margin: 0px auto;
 	height: 480px;
 	width: 480px;
-	background-color: #eeeeee;
+	
 }
 
 .entered {
