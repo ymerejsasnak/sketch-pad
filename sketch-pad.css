@@ -1,8 +1,9 @@
 
 
 div {
-	height: 16px;
-	width: 16px;
+	float: left;
+	height: 58px;
+	width: 58px;
 	border: 1px solid black;
 }
 
