@@ -35,7 +35,22 @@ button {
 	background-color: black;
 }
 
+
+input {
+	border: 1px solid black;
+}
+
 #colorsliders {
+
 	text-align: center;
 	margin-top: 20px;
+}
+
+
+
+#currentcolor {
+	margin: 0 auto;
+	height: 50px;
+	width: 50px;
+	border: 2px solid black;
 }
