@@ -11,15 +11,17 @@
 	<body>
 		<h1>Welcome to my Sketch-Pad!</h1>
         
-        
-        <button>clear grid</button>
+        <div id="buttons">
+            <button id="clear">clear grid</button>
+            <button id="flood">flood fill</button>
+        </div>
 
         <div id="gridcontainer"></div>   
         
         <div id="colorsliders">
-            red<input id="red" type="range" min=0 max=255 value=0 name="red">
-            green<input id="green" type="range" min=0 max=255 value=0 name="green">
-            blue<input id="blue" type="range" min=0 max=255 value=0 name="blue">
+            red <input id="red" type="range" min=0 max=255 value=0 name="red">
+            green <input id="green" type="range" min=0 max=255 value=0 name="green">
+            blue <input id="blue" type="range" min=0 max=255 value=0 name="blue">
         </div>
 
         <div id="currentcolor"></div>
