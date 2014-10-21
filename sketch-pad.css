@@ -2,14 +2,6 @@ body {
 	background-color: darkgray;
 }
 
-div {
-	float: left;
-	height: 28px;
-	width: 28px;
-	border: 1px solid black;
-	background-color: white;
-}
-
 h1 {
 	text-align: center;
 
@@ -23,6 +15,14 @@ button {
 	width: 100px;
 }
 
+.gridbox {
+	float: left;
+	height: 30px;
+	width: 30px;
+	border: 0px;
+	background-color: white;
+}
+
 #gridcontainer {
     float: none;
 	height: 480px;
@@ -33,4 +33,9 @@ button {
 
 .entered {
 	background-color: black;
+}
+
+#colorsliders {
+	text-align: center;
+	margin-top: 20px;
 }
