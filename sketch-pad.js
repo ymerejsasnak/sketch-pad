@@ -15,6 +15,7 @@ $(document).ready(function() {
     var red = 0;
     var green = 0;
     var blue = 0;
+    var color = getColor(red, green, blue);
     
     var isDown = false;
 
@@ -29,35 +30,39 @@ $(document).ready(function() {
 
     $("#gridcontainer").on("mousemove", ".gridbox", function() {
         if (isDown){
-        	$(this).css("background-color", getColor(red, green, blue));
+        	$(this).css("background-color", color);
         }
     });
 
     $("#gridcontainer").on("mousedown", ".gridbox", function() {
-    	$(this).css("background-color", getColor(red, green, blue));
+    	$(this).css("background-color", color);
     });
 
+
     $("#clear").on("click", function() {
-        $(".gridbox").css("background-color", "white")
+        $(".gridbox").css("background-color", "white");
     });
 
     $("#flood").on("click", function() {
-        $(".gridbox").css("background-color", getColor(red, green, blue));
+        $(".gridbox").css("background-color", color);
     });
 
 
     $("#red").on("change", function() {
-        red = $(this).val()
-        $("#currentcolor").css("background-color", getColor(red, green, blue));
+        red = $(this).val();
+        color = getColor(red, green, blue);
+        $("#currentcolor").css("background-color", color);
     });
     
     $("#green").on("change", function() {
-        green = $(this).val()
-        $("#currentcolor").css("background-color", getColor(red, green, blue));
+        green = $(this).val();
+        color = getColor(red, green, blue);
+        $("#currentcolor").css("background-color", color);
     });
 
     $("#blue").on("change", function() {
-        blue = $(this).val()
-        $("#currentcolor").css("background-color", getColor(red, green, blue));
+        blue = $(this).val();
+        color = getColor(red, green, blue);
+        $("#currentcolor").css("background-color", color);
     });
 });

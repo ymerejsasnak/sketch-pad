@@ -1,11 +1,8 @@
-sketch-pad
-==========
+#JS Sketch Pad (from the Odin Project)
 
--did basic sketch pad in about two hours
--changed it so you have to click and drag to paint instead of just hover (like a real paint program)
-(but this seems to cause an issue sometimes where clicking and dragging selects elements on the page)
+This is the first project I completed using HTML, CSS, Javascript, and jQuery.  I will likely be leaving it as is since it doesn't seem worth working on for any practical reason.
 
-to do:
--try optional additions from odinproject (random colors, incremental colors, change grid size)
--maybe add other things like flood fill button, color selection button, etc.
--***try to fix above issue with selecting elements...find way to turn it off?
+####Possible additions/improvements:
+*try optional additions from odinproject (random colors, incremental colors, change grid resolution)
+*didn't know about color picker element when I made it, that would be better than 3 sliders for the color
+*disable click and drag selection which sometimes messes up the painting
